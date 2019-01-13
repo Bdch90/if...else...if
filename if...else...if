@@ -10,14 +10,14 @@
     if (login == "Admin") {
         var passWord = prompt("Enter password");
         if (passWord == "TheMaster") {
-            alert("wellcome")
+            alert("wellcome");
         }else if (passWord == null){
-            alert("canceld")
+            alert("canceld");
         }else {
-            alert("Wrong password")
+            alert("Wrong password");
         }
     }else if (login==null) {
-        alert("Canceled")
+        alert("Canceled");
     }else {
         alert("I don’t know you")
     }
