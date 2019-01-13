@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var login = prompt("Enten Username");
+    if (login == "Admin") {
+        var passWord = prompt("Enter password");
+        if (passWord == "TheMaster") {
+            alert("wellcome")
+        }else if (passWord == null){
+            alert("canceld")
+        }else {
+            alert("Wrong password")
+        }
+    }else if (login==null) {
+        alert("Canceled")
+    }else {
+        alert("I don’t know you")
+    }
+</script>
+</body>
+</html>
